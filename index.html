@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" content="width=device-width, initial-scale=1">
+	<title>webpage part uno</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+	<style>
+
+		.sidenav{
+			background-image: linear-gradient(45deg, #98CD8D 25%, #F6F0CF 25%, #F6F0CF 50%, #98CD8D 50%, #98CD8D 75%, #F6F0CF 75%, #F6F0CF 100%);
+			background-size: 56.57px 56.57px;
+			min-width: 160px;
+			margin: 1em;
+			padding: 1em;
+			border: 2px solid #ffffff;
+			box-shadow: var(--accent-color) 4px 4px;
+			top: 0;
+			left: 0;
+			width: 160px;
+			height: 100vh;
+			margin-left: 350px;
+		}
+
+		.sidenav a {
+			padding: 6px 8px 6px 16px;
+			
+			font-size: 25px;
+			color: #818181;
+			display: block;
+		}
+
+
+	</style>
+</head>
+	
+	<body>
+		<div class="main-container">
+		<aside class="sidenav" id="sidebar">
+			<nav>
+				<ul>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#blogg">Blogg</a></li>
+				<li><a href="#updates">Updates</a></li>
+				</ul>
+			</nav>
+		</aside>
+
+
+
+
+
+		
+		<div id="main">
+		<p style="font-size:25px;">hey bro is old news this will be website numero uno</p>
+		</div>
+
+
+
+
+
+
+		</div>
+
+		<div class="content">
+				<div class="top-bar">
+					<span class="material-symbols-rounded">
+						arrow_drop_down
+					</span>
+					<span>Now Playing</span>
+					<span class="material-symbols-rounded">
+						more_horiz
+					</span>
+					
+				</div>
+		
+			<!--insert image here for album cover 1-->
+			<div class="image-wrapper">
+				<div class="music-image">
+					<img src="images/Breath1.jpg"/>
+				</div>
+			</div>
+
+			<div class="music-titles">
+				<p class="name">Breath - NAOKI and Arc SYS</p>
+				<p class="artist">NAOKI and Arc Sys</p>
+			</div>
+
+			<div class="progress-details">
+				<div class="progress-bar">
+					<span></span>
+				</div>
+				<div class="time">
+					<span class="current">0:00</span>
+					<span class="final">6:23</span>
+				</div>
+			</div>
+			<div class="control-btn">
+				<!--add the repeat and skip and stuff images here with span classes-->
+				<span class="material-symbols-rounded" id="repeat">
+					repeat
+				</span>
+				<span class="material-symbols-rounded" id="prev">
+					skip_previous
+				</span>
+				<div class="play-pause">
+					<span class="material-symbols-rounded">
+						play_arrow
+					</span>
+				</div>
+				<span class="material-symbols-rounded" id="next">
+					skip_next
+				</span>
+				<span class="material-symbols-rounded" id="shuffle">
+					shuffle
+				</span>
+			</div>
+
+		</div>
+
+		<audio src="music/Breath1.mp3" class="main-song"></audio>
+
+		<script src="js/playlist.js"></script>
+		<script src="js/script.js"></script>
+
+
+
+	</body>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
